@@ -1,0 +1,119 @@
+body {
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    width: 80%; 
+    max-width: 800px; 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+.chat-window {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.messages-container {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.message {
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.message-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.message-input input {
+    flex-grow: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+.message-input button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.message-input button:hover {
+    background-color: #45a049;
+}
+
+.user-authentication {
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.user-authentication input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 200px; 
+}
+
+.user-authentication button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-authentication button:hover {
+    background-color: #45a049;
+}
+
+.logo {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    color: #f1c7b5;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1); 
+  }
+
+  .message-list-container {
+    height: 50%;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+    overflow-y: auto;
+    padding: 10px;
+  }
+
+  .message-list-wrapper {
+  
+  }
+
+  .chat-content {
+    height: 50%; 
+    display: flex;
+    flex-direction: column;
+  }

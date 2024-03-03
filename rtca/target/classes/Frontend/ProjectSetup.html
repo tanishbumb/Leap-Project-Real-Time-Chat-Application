@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatterbox: Your Interactive Chat Space</title>
+  <link rel="stylesheet" href="StyleApplication.css">
+</head>
+<body>
+  <div class="chat-container">
+    <h1 class="logo">Chatterbox</h1>
+
+    <div class="user-authentication hidden">
+      <input type="text" id="usernameInput" placeholder="Enter your username">
+      <input type="password" id="passwordInput" placeholder="Enter your password">
+      <button onclick="loginUser()">Login</button>
+    </div>
+
+    <div class="chat-window">
+      <div class="message-list-container">
+        <div class="message-list-wrapper">
+          </div>
+      </div>
+
+      <div class="chat-content">
+        <div class="messages-container" id="messageContainer">
+          </div>
+
+        <div class="message-input">
+          <input type="text" id="messageInput" placeholder="Type your message...">
+          <div class="attachment-options">
+            <label for="fileInput">
+              <i class="fa-solid fa-paperclip"></i>
+              <input type="file" id="fileInput" hidden>
+            </label>
+            <i class="fa-solid fa-image" onclick="openImageUpload()"></i>
+            <i class="fa-solid fa-video" onclick="openVideoUpload()"></i>
+            <i class="fa-solid fa-file-alt" onclick="openDocumentUpload()"></i>
+          </div>
+          <button onclick="sendMessage()">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="RealTimeUpdates.js"></script>
+  <script src="UserAuthenticationComponent.js"></script>
+  <script src="FileUploadComponent.js"></script>
+  <script src="https://kit.fontawesome.com/your_fontawesome_kit_id.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
