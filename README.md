@@ -44,6 +44,14 @@ User presence indicators
 
 ![image](https://github.com/tanishbumb/Leap-Project-Real-Time-Chat-Application/assets/145283457/371819d0-c2cd-47cd-907b-1d526768f2ea)
 
+MongoDB:
+![image](https://github.com/tanishbumb/Leap-Project-Real-Time-Chat-Application/assets/145283457/ec3c316f-52b2-47b7-8524-53187532b0e4)
+![image](https://github.com/tanishbumb/Leap-Project-Real-Time-Chat-Application/assets/145283457/719df407-8592-4e43-b577-ab62bca94d5d)
+![image](https://github.com/tanishbumb/Leap-Project-Real-Time-Chat-Application/assets/145283457/d3397153-5b41-4e07-a0b6-ad2820235fad)
+
+
+
+
 Maven Clean:
 ![image](https://github.com/tanishbumb/Leap-Project-Real-Time-Chat-Application/assets/145283457/652c857a-5cee-43b5-957e-c8750ed4e062)
 
@@ -55,6 +63,7 @@ Maven Install :
  
 Spring Boot App – Run As 
 ![image](https://github.com/tanishbumb/Leap-Project-Real-Time-Chat-Application/assets/145283457/fd06e4aa-945e-4e42-bf3c-5bb263d45027)
+
 Setting up MongoDB database 
 
 
